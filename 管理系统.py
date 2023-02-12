@@ -125,6 +125,8 @@ def modify():
                 print('修改完成！')
             else:
                 print('查无此人')
+                wfile.write（str（d） + '\n')
+
     answer = input('继续操作？T/F')
     if answer == 'T' or answer == 't':
         modify()
